@@ -1,0 +1,62 @@
+.center-transform{
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
+    transform: translate(-50%, -50%);
+}
+
+@keyframes acrHover {
+    from{
+
+    }
+    to{
+
+    }
+}
+
+
+#chart{
+    position:relative;
+    width:800px;
+    height:400px;
+    border:1px solid #eee;
+    background:#333;
+}
+
+#chart line{
+    stroke: #666;
+    stroke-width: 1
+}
+
+#chart path.label_line{
+    stroke: #aaa;
+    stroke-width: 2;
+    fill:none;
+    stroke-linejoin:round;
+    /*stroke-linecap:butt;*/
+
+}
+
+#chart text{
+    fill: #fff;
+    alignment-baseline:central;
+}
+
+#chart text.center_text{
+    fill:#D9CD90;
+    font-size:50px;
+    text-anchor: middle;
+    alignment-baseline:central;
+}
+
+#chart circle{
+    r: 5;
+    fill: #333;
+}
+
+.progress{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:30px;
+    height:30px;
+}
