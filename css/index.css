@@ -14,7 +14,7 @@
 }
 
 
-#chart{
+#donut{
     position:relative;
     width:800px;
     height:400px;
@@ -22,12 +22,12 @@
     background:#333;
 }
 
-#chart line{
+#donut line{
     stroke: #666;
     stroke-width: 1
 }
 
-#chart path.label_line{
+#donut path.label_line{
     stroke: #aaa;
     stroke-width: 2;
     fill:none;
@@ -36,19 +36,19 @@
 
 }
 
-#chart text{
+#donut text{
     fill: #fff;
     alignment-baseline:central;
 }
 
-#chart text.center_text{
+#donut text.center_text{
     fill:#D9CD90;
     font-size:50px;
     text-anchor: middle;
     alignment-baseline:central;
 }
 
-#chart circle{
+#donut circle{
     r: 5;
     fill: #333;
 }

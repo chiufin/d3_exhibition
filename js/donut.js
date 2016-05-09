@@ -8,7 +8,7 @@
                 .range([0,180]);
 
 
-        var chartSVG = d3.select('#chart')
+        var chartSVG = d3.select('#donut')
                 .append('svg').attr({
                     'width': width,
                     'height': height
@@ -27,11 +27,13 @@
         var arc = d3.svg.arc()
                 .innerRadius(90)
                 .outerRadius(140)
+                .cornerRadius(1)
                 .padAngle(.02);
 
         var arcHover = d3.svg.arc()
                 .innerRadius(90)
                 .outerRadius(150)
+                .cornerRadius(10)
                 .padAngle(.02);
 
         var lineX = function(d){ return arc.centroid(d)[0]};
